@@ -94,7 +94,7 @@ jobs:
           method: kubeconfig
           kubeconfig: '${{ secrets.KUBECONFIG }}'
 
-      - name: k command
+      - name: k command a
         run: kubectl version --short -o yaml
 
           
